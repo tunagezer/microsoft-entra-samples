@@ -1,39 +1,40 @@
-# Microsoft Entra Samples
+# Azure AD Risky Users Activity Logger
 
-This repository contains sample scripts that leverage Microsoft Entra to manage identity and access in your environment. 
+This Python script uses the Microsoft Graph API to retrieve risky users with a high risk level and their activity logs in the past 14 days. It authenticates with Azure AD using MSAL (Microsoft Authentication Library) and retrieves an access token for making Graph API requests. 
 
-## Requirements
-
-Before running the scripts, you'll need to install the following:
+## Prerequisites
 
 - Python 3.x
-- Microsoft Authentication Library (MSAL)
-- Requests library
-- Microsoft Graph Python SDK
+- `msal` library (can be installed via pip)
+- `requests` library (can be installed via pip)
+- `tabulate` library (can be installed via pip)
 
-## Azure AD
+You will also need to create an Azure AD app and set up the necessary credentials. See [Microsoft's documentation](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) for more information.
 
-### Identity Protection
+## Installation
 
-#### Risky Users and Sign-In Activity Logs
+1. Clone the repository or download the script file.
+2. Install the necessary dependencies using pip: `pip install -r requirements.txt`
+3. Set up your Azure AD app credentials and user settings in the script.
 
-The `risky_users_activity_logs.py` script uses the Microsoft Graph API to retrieve risky users and sign-in activity logs from Azure AD Identity Protection. 
+## Usage
 
-To run the script, navigate to the `risky-users-activity-logs` directory and run the following command:
+1. Run the script: `python risky_users_activity_logs.py`
+2. The script will retrieve risky users with a high risk level and their activity logs in the past 14 days using the Microsoft Graph API.
+3. The resulting table will be printed to the console and saved as an HTML file.
+4. The table will also be copied to your clipboard, so you can easily paste it into another application.
 
-python risky_users_activity_logs.py
+## License
 
-This will generate a CSV file with the risky users and their corresponding sign-in activity logs.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Decentralized Identity
+## Acknowledgments
 
-### DID Samples
+- [Microsoft Graph API documentation](https://docs.microsoft.com/en-us/graph/)
+- [MSAL Python documentation](https://github.com/AzureAD/microsoft-authentication-library-for-python)
+- [Requests library documentation](https://requests.readthedocs.io/en/master/)
+- [Tabulate library documentation](https://pypi.org/project/tabulate/)
 
-Coming soon!
+Feel free to customize this README.md file to suit your needs and provide additional information about your project. Good luck with your code!
 
-## Cloud Infrastructure Entitlement Management
-
-### CIEM Samples
-
-Coming soon!
 
