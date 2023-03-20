@@ -10,8 +10,6 @@ microsoft-entra-samples
 
 ├── README.md
 
-├── README.md
-
 ├── azure-ad
 
 │ ├── identity-protection
