@@ -35,6 +35,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Requests library documentation](https://requests.readthedocs.io/en/master/)
 - [Tabulate library documentation](https://pypi.org/project/tabulate/)
 
-Feel free to customize this README.md file to suit your needs and provide additional information about your project. Good luck with your code!
+Thank You!
 
 
