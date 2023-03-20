@@ -6,44 +6,24 @@ This repository contains sample scripts and code snippets for the Microsoft Entr
 
 The repository is organized by product and service, with each service having its own directory containing the relevant samples. The current directory structure is as follows:
 
+microsoft-entra-samples
+
 ├── README.md
+
+├── README.md
+
 ├── azure-ad
+
 │ ├── identity-protection
+
 │ │ ├── risky-users-activity-logs
+
 │ │ │ ├── risky_users_activity_logs.py
+
 │ │ │ ├── requirements.txt
+
 │ │ │ └── README.md
-│ ├── b2b-collaboration
-│ │ ├── invite-b2b-users
-│ │ │ ├── invite_b2b_users.py
-│ │ │ ├── requirements.txt
-│ │ │ └── README.md
-│ ├── conditional-access
-│ │ ├── conditional-access-policies
-│ │ │ ├── conditional_access_policies.py
-│ │ │ ├── requirements.txt
-│ │ │ └── README.md
-│ │ ├── sign-in-risk
-│ │ │ ├── sign_in_risk.py
-│ │ │ ├── requirements.txt
-│ │ │ └── README.md
-│ ├── entitlement-management
-│ │ ├── entitlement-management-policies
-│ │ │ ├── entitlement_management_policies.py
-│ │ │ ├── requirements.txt
-│ │ │ └── README.md
-├── ciem
-│ ├── resource-entitlement-management
-│ │ ├── entitlement-management-workflows
-│ │ │ ├── entitlement_management_workflows.py
-│ │ │ ├── requirements.txt
-│ │ │ └── README.md
-├── decentralized-identity
-│ ├── identity-hub
-│ │ ├── create-identity-hub
-│ │ │ ├── create_identity_hub.py
-│ │ │ ├── requirements.txt
-│ │ │ └── README.md
+
 
 
 
