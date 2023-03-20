@@ -8,9 +8,9 @@ import copy
 import pyperclip
 
 # Set up the Azure AD app credentials
-client_id = 'd1a068c0-aa45-49a1-a3e4-e9b5c5253327'
-client_secret = 'U8E8Q~PQKkQOdiNb43hJ87hLJxuMN3IxyDG17cpW'
-tenant_id = 'd5499d29-b21e-4166-a994-72e04ca99e79'
+client_id = 'client_id'
+client_secret = 'client_secret'
+tenant_id = 'tenant_id'
 
 # MS Graph API settings
 api_endpoint = "https://graph.microsoft.com/beta/"
@@ -95,11 +95,7 @@ if response.status_code == 200:
                     print(len(activity_logs))
                     with open('activity_logs.json', 'w') as f:
                         f.write(json.dumps(activity_logs, indent=4))
-
-                    # Load data from activity_logs.json file
-                    #with open('activity_logs.json', 'r') as f:
-                     #   activity_logs = json.load(f)
-
+                    print("Activity logs saved to file.")
 # Create the table headers
 headers = ["Time", "App", "IP Address", "Client App Used", "Resource Display Name", "Location", "Risk Detail", "Risk State", "Device", "Device ID", "Device Display Name", "Operating System", "Browser", "UserAgent", "Compliant?", "Managed?", "Trust Type"]
 
