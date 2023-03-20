@@ -19,7 +19,7 @@ You will also need to create an Azure AD app and set up the necessary credential
 
 ## Usage
 
-1. Run the script: `python main.py`
+1. Run the script: `python risky_users_activity_logs.py`
 2. The script will retrieve risky users with a high risk level and their activity logs in the past 14 days using the Microsoft Graph API.
 3. The resulting table will be printed to the console and saved as an HTML file.
 4. The table will also be copied to your clipboard, so you can easily paste it into another application.
