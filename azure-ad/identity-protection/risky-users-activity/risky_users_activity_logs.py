@@ -4,7 +4,6 @@ import datetime
 from tabulate import tabulate
 import re
 import json
-import copy
 import pyperclip
 
 # Set up the Azure AD app credentials
