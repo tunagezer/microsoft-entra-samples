@@ -19,10 +19,15 @@ The repository is organized by product and service, with each service having its
 	    └─── identity-protection  
         	│ 
         	├─── python
-        	│   ├── risky_users_activity_logs.py
-        	│   ├── requirements.txt
-        	│   └── README.md
-        	│           
+        	│   	├── risky_users_activity_logs
+		|	|	├── risky_users_activity_logs.py
+        	│   	|	├── requirements.txt
+        	│   	|	└── README.md
+        	│	|
+		|	├── high_risk_user_analysis
+		|		├── high_risk_user_analysis.py
+		|		└── README.md
+		|
         	├─── csharp
         	│   ├─── risky_users_activity_logs.cs
         	│   └─── README.md
