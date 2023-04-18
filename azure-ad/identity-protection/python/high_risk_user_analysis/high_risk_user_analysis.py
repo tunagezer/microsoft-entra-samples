@@ -14,12 +14,9 @@ init(autoreset=True) #automatically reset the color after every print statement
 #logging.getLogger("msal").setLevel(logging.INFO)  # Optionally disable MSAL DEBUG logs
 
 # Set up the Azure AD app credentials
-#client_id = 'd1a068c0-aa45-49a1-a3e4-e9b5c5253327' #Tunalogy
-client_id = '71592c29-5804-4e60-b195-a895fc6b068a' #Woodgrove
-#client_secret = 'U8E8Q~PQKkQOdiNb43hJ87hLJxuMN3IxyDG17cpW' #Tunalogy
-client_secret = 'o5T8Q~13GQ2FT5Rf_6HOVbg0KHXYgTflkCTyUcGM' #Woodgrove
-#tenant_id = 'd5499d29-b21e-4166-a994-72e04ca99e79' #Tunalogy
-tenant_id = '536279f6-15cc-45f2-be2d-61e352b51eef' #Woodgrove
+client_id = 'client_id'
+client_secret = 'client_secret'
+tenant_id = 'tenant_id'
 
 # MS Graph API settings
 api_version = "v1.0"
